@@ -409,6 +409,8 @@ declare_elements! {
     };
     source {
         src: Uri,
+        srcset: String,
+        media: String,
         type: Mime,
     } in [MediaContent];
     summary with PhrasingContent;
